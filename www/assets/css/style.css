@@ -192,6 +192,7 @@ color: var(--main-accent-color);
 /* ============== FEATURES ============= */
 
 #features{
+    padding-top: 3rem;
     background-color:  #fafafa;
     padding-bottom: 6rem;
     margin-top: 3rem;
@@ -291,6 +292,7 @@ color: var(--main-accent-color);
 /* ============ PRICING =============== */
 
 #pricing{
+    padding-top: 3rem;
     padding-bottom: 7rem;
     position: relative;
 }
@@ -507,4 +509,21 @@ color: var(--main-accent-color);
     margin-top: 1rem;
     color: #ffffff;
     font-size: .9rem;
+}
+
+
+
+/* =============== scroll ===============*/
+
+.scrollup
+{
+	width: 64px;
+	height: 64px;
+	text-decoration: none;
+	background: url("../img/up.png") no-repeat 0px 0px;
+	position: fixed;
+	right: 50px;
+    bottom: 50px;
+    z-index: 2;
+	display: none;
 }
