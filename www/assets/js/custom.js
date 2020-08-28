@@ -45,6 +45,8 @@ jQuery(function($)
 			$('#link3').click(function() { $.scrollTo($('#download'), 500); });
 			$('#link4').click(function() { $.scrollTo($('#pricing'), 500); });
 			$('#link5').click(function() { $.scrollTo($('#contact'), 500); });
+			$('#link6').click(function() { $.scrollTo($('#pricing'), 700); });
+			$('#link7').click(function() { $.scrollTo($('#download'), 700); });
 
 		}
 		);
